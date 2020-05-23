@@ -1,3 +1,3 @@
-$("input:[name='entry.880605901']").change(function(){
+$("input").change(function(){
   alert("The text has been changed.");
 });
