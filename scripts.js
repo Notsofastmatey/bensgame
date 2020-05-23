@@ -1,3 +1,6 @@
-$("#fname").change(function(){
+$(document).ready(function(){
+  
+  $("#fname").change(function(){
   alert("The text has been changed.");
+});
 });
