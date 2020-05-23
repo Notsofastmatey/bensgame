@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  $("#lname").hide()
+  $("#lname").hide();
   $("#fname").change(function(){
   alert("The first name was changed at " + new Date().getTime());
-  $("#lname").show()
+  $("#lname").show();
 });
   
     $("#lname").change(function(){
