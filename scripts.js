@@ -3,18 +3,18 @@ $(document).ready(function(){
   var time2 = 0
   var difference = 0
   
-  $("#lname").hide();
+  $("#q2").hide();
   $("#diff").hide();
-  $("#fname").change(function(){
+  $("#q1").change(function(){
     time1 = new Date().getTime();
   alert("The first name was changed at " + time1);
-  $("#lname").show();
+  $("#q2").show();
 });
   
-    $("#lname").change(function(){
+    $("#q2").change(function(){
       time2 = new Date().getTime();
   alert("The last name was changed at " + time2);
-      difference = time2-time1;
+      difference = (time2-time1)/1000;
       $("#diff").show();
       $("#diff:text").val(difference);
 });
