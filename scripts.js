@@ -7,6 +7,7 @@ $(document).ready(function(){
   
     $("#lname").change(function(){
   alert("The last name was changed at " + new Date().getTime());
+      $("#diff:text").val("Glenn Quagmire");
 });
   
   
