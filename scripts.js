@@ -4,6 +4,7 @@ $(document).ready(function(){
   var difference = 0
   
   $("#lname").hide();
+  $("#diff").hide();
   $("#fname").change(function(){
     time1 = new Date().getTime();
   alert("The first name was changed at " + time1);
@@ -14,6 +15,7 @@ $(document).ready(function(){
       time2 = new Date().getTime();
   alert("The last name was changed at " + time2);
       difference = time2-time1;
+      $("#diff").show();
       $("#diff:text").val(difference);
 });
   
