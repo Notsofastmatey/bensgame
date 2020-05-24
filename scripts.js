@@ -9,7 +9,7 @@ $(document).ready(function(){
     $("#lname").change(function(){
       var time2 = new Date().getTime();
   alert("The last name was changed at " + time2);
-      $("#diff:text").val(time2-time1);
+      $("#diff:text").val("hi");
 });
   
   
